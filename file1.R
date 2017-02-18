@@ -8,7 +8,6 @@ read.income <- function(path = 'c:/dat203.1x/mod4/'){
 name.list <- function(x) {
   names <- names(x)
   len <- length(names)
-  names[-len]
 }
 
 ## Bar plot of categorical features

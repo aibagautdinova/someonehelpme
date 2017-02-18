@@ -21,3 +21,4 @@ bar.income <- function(x){
               facet_grid(. ~ income) + 
               ggtitle(paste("Counts of income level by",x))))
   }}
+I'm trying to change your file'

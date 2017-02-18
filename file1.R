@@ -8,7 +8,6 @@ read.income <- function(path = 'c:/dat203.1x/mod4/'){
 name.list <- function(x) {
   names <- names(x)
   len <- length(names)
-  names[-len]
 }
 
 ## Bar plot of categorical features
@@ -21,4 +20,7 @@ bar.income <- function(x){
               facet_grid(. ~ income) + 
               ggtitle(paste("Counts of income level by",x))))
   }}
+<<<<<<< HEAD
 I'm trying to change your file'
+=======
+>>>>>>> c52f14d55707f69cf9021d4053bcd7e763c93c28
